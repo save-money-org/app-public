@@ -1,7 +1,7 @@
 # Privacy Policy
 
 **Effective date:** April 27, 2026
-**Last updated:** May 15, 2026
+**Last updated:** July 25, 2026
 
 This Privacy Policy explains how Dorsey & Dorsey Inc, doing business as "Cheapest Auto Insurance" ("we", "us", or "our"), collects, uses, shares, and protects information when you use the **Cheapest Auto Insurance** mobile application (the "App"), including any embedded web content the App displays, and any related services we provide (collectively, the "Services").
 
@@ -24,7 +24,19 @@ If you are a California resident, you may also contact us using the methods abov
 
 ## 2. Summary of what the App does
 
-The App is a mobile interface for obtaining auto-insurance quotes and managing an existing insurance customer portal. It works primarily by displaying secure web pages from our quote and portal website (`https://insured.savemoneycarinsurance.com`) inside an embedded in-app browser ("WebView"). When you submit information on those web pages, you are submitting it directly to our website — the App does not separately store or transmit that information.
+The App is a mobile interface for obtaining auto-insurance and renters-insurance quotes and for managing an existing insurance customer portal. It works primarily by displaying secure web pages from websites we operate, inside an embedded in-app browser ("WebView"):
+
+| Screen in the App | Website loaded | Operated by |
+|---|---|---|
+| **Get a Quote** | `https://insured.savemoneycarinsurance.com/d2c/quote` | Us (Dorsey & Dorsey Inc) |
+| **Client Portal** | `https://insured.savemoneycarinsurance.com/#/` | Us (Dorsey & Dorsey Inc) |
+| **Renters Insurance** | `https://rentersinsurance.aautoandhomeinsurance.com` | Us (Dorsey & Dorsey Inc) |
+
+All three are first-party websites operated by us. When you submit information on those web pages, you are submitting it directly to our website — the App does not separately store or transmit that information.
+
+The App also contains **Call**, **Text**, and **Email** buttons. Pressing one hands the corresponding phone number or email address to your device's own phone, messaging, or mail app. The App does not read, store, or transmit the contents of any call, message, or email you send this way, and it does not access your contacts, call history, or message history.
+
+On Android, the **Client Portal** and **Renters Insurance** screens open in your device's default web browser rather than inside the App. When that happens, your browser's own privacy settings and cookie storage apply, separately from the App.
 
 ---
 
@@ -34,23 +46,35 @@ We collect the following categories of information. The categories below are wri
 
 ### 3.1 Information you provide directly through the embedded web pages
 
-When you use the **Get a Quote** flow or the **Client Portal**, you may be asked to provide the following on web pages loaded inside the App:
+When you use the **Get a Quote**, **Renters Insurance**, or **Client Portal** flows, you may be asked to provide the following on web pages loaded inside the App:
 
-- **Personal identifiers**: full name, email address, phone number, mailing or garaging address, date of birth, gender (where required by an insurer).
-- **Government identifiers**: driver's license number and state of issue. We do **not** collect Social Security Numbers in the App.
-- **Vehicle information**: year, make, model, trim, VIN, mileage, ownership/lease/finance status, primary use, garaging ZIP code.
-- **Driver and household information**: marital status, number of additional drivers, drivers' names, dates of birth, license numbers, and driving history (accidents, violations, claims) where required for an accurate quote.
-- **Insurance history**: current insurer, current coverage levels, policy expiration date, prior lapses in coverage.
-- **Account credentials** (Client Portal only): username/email and password used to authenticate to your existing account.
-- **Communications**: any messages or feedback you send us through the App or its embedded pages.
+**Get a Quote flow:**
+- **Garaging ZIP code**: the ZIP code where the vehicle is primarily kept.
+- **Vehicle information**: make and model of the vehicle to be insured.
+- **Driver age**: the age of the primary driver.
+- **Phone number**: a phone number we (or a partner agent) can use to follow up with quote information.
 
-You provide this information voluntarily. Some fields are required to generate a quote or to access an account; others are optional.
+**Renters Insurance flow:**
+- **ZIP code**: the ZIP code of the rented property, collected on the first screen to determine availability and rating territory.
+- **Property and coverage details**: information about the rented dwelling and the coverage amounts you select.
+- **Contact information**: name, phone number, and/or email address so we (or a partner agent) can follow up with quote information.
+- **Personal rating information**: information used by insurers to rate a renters policy, such as date of birth and prior insurance history.
+
+The Renters Insurance flow is a multi-step form; the exact fields requested depend on the coverage you select and the insurers available for your ZIP code. We do not request government identification numbers, Social Security numbers, or payment card details in this flow.
+
+**Client Portal flow (for existing customers only):**
+- **Policy number**: used as the username to authenticate to your existing customer account.
+- **ZIP code**: used as the password to authenticate to your existing customer account.
+
+After you authenticate to the Client Portal, the embedded web pages display information about your existing insurance policy that was previously collected when you purchased the policy through one of our licensed agents. The App itself does not collect any additional personal information from you beyond the fields listed above.
+
+You provide this information voluntarily. The fields above are required to generate a quote or to access your existing account.
 
 ### 3.2 Information collected automatically when you use the App
 
 - **Device information** (read by the App for diagnostic/troubleshooting purposes): device model, device manufacturer/brand, operating system version, and platform (iOS or Android). This information is read locally and is **not** transmitted off the device by the native App.
-- **Cookies, local storage, and session data set by our website** inside the embedded WebView: when you use the Get a Quote or Client Portal screens, our website (`insured.savemoneycarinsurance.com`) may set cookies and use browser-style local storage to maintain your session, remember your progress on a quote form, and detect repeat visits. These are first-party cookies set by our website (not by the App itself), but they persist within the App's WebView storage.
-- **Server logs from our website**: when the embedded web pages are loaded, our web servers automatically receive standard request data, including IP address, timestamp, the page requested, the referring page, and HTTP user-agent string. This is logged for security, fraud prevention, and operational monitoring.
+- **Cookies, local storage, and session data set by our websites** inside the embedded WebView: when you use the Get a Quote, Renters Insurance, or Client Portal screens, our websites (`insured.savemoneycarinsurance.com` and `rentersinsurance.aautoandhomeinsurance.com`) may set cookies and use browser-style local storage to maintain your session, remember your progress on a quote form, and detect repeat visits. These are first-party cookies set by our own websites (not by the App itself), but they persist within the App's WebView storage.
+- **Server logs from our websites**: when the embedded web pages are loaded, our web servers automatically receive standard request data, including IP address, timestamp, the page requested, the referring page, and HTTP user-agent string. This is logged for security, fraud prevention, and operational monitoring.
 
 ### 3.3 What we do NOT collect
 
@@ -74,7 +98,7 @@ If we change any of the above in a future version of the App, we will update thi
 
 We use the information described in Section 3 to:
 
-- Generate auto-insurance quotes from one or more licensed insurance carriers or partner agencies.
+- Generate auto-insurance and renters-insurance quotes from one or more licensed insurance carriers or partner agencies.
 - Process and service your insurance application or existing policy through the Client Portal.
 - Authenticate you and maintain your session in the Client Portal.
 - Communicate with you about quotes, policies, and customer-service matters.
@@ -153,41 +177,3 @@ Questions, requests, or complaints about this Privacy Policy or our data practic
 Tulsa, OK 74133-2932, USA
 Email: josh@tulsainsuranceonline.com
 Phone: (918) 744-5145
-
----
-
-## Appendix A — Google Play Data safety form quick map
-
-Use this when filling out the Play Console **Data safety** form so your answers match this policy.
-
-| Data type | Collected? | Shared? | Required/Optional | Purpose |
-|---|---|---|---|---|
-| Name | Yes (via web form) | Yes — insurance carriers | Required for quote | Account, app functionality |
-| Email address | Yes (via web form) | Yes — insurance carriers | Required for quote | Account, app functionality, communications |
-| Phone number | Yes (via web form) | Yes — insurance carriers | Required for quote | Account, app functionality, communications |
-| Physical/mailing address | Yes (via web form) | Yes — insurance carriers | Required for quote | App functionality (rating) |
-| Date of birth | Yes (via web form) | Yes — insurance carriers | Required for quote | App functionality (rating) |
-| Government ID (driver's license) | Yes (via web form) | Yes — insurance carriers | Required for quote | App functionality, fraud prevention |
-| Other personal info (vehicle VIN, household drivers, driving history) | Yes (via web form) | Yes — insurance carriers | Required for quote | App functionality (rating) |
-| User account credentials (Client Portal) | Yes (via web form) | No (auth only) | Required for portal access | Account management |
-| Photos | No | — | — | — |
-| Videos | No | — | — | — |
-| Audio | No | — | — | — |
-| Location (precise or approximate) | No | — | — | — |
-| Contacts | No | — | — | — |
-| Calendar | No | — | — | — |
-| SMS / call logs | No | — | — | — |
-| Health / fitness / biometric | No | — | — | — |
-| Files and docs | No | — | — | — |
-| App activity (in-app actions) | No (not transmitted by App) | — | — | — |
-| Web browsing history | No | — | — | — |
-| Device or other IDs (advertising) | No | — | — | — |
-| Crash logs / diagnostics | No (no SDK integrated) | — | — | — |
-| Device info (model, brand, OS) | Read locally only, not transmitted by App | No | — | Diagnostics |
-| Cookies / session data set by our website inside the WebView | Yes (first-party, by our website) | No | — | Authentication, session continuity |
-
-**Security practices to declare in Data safety:**
-- Data is encrypted in transit (TLS).
-- Users can request data deletion (Section 9; provide the contact email).
-- We follow Google Play's Families policy: not applicable (app is not targeted at children).
-- Independent security review: declare honestly based on whether you have one.
